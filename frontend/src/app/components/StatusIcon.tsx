@@ -1,4 +1,3 @@
-// components/StatusIcon.tsx
 import React, { FC } from 'react';
 
 interface StatusIconProps {

@@ -1,4 +1,3 @@
-// types/index.ts
 export interface Message {
     _id: string;
     from: string;

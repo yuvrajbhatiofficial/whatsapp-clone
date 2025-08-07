@@ -1,4 +1,3 @@
-// components/ChatListItem.tsx
 import React, { FC } from 'react';
 import type { Chat } from '../types';
 
