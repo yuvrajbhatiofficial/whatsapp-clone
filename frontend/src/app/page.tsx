@@ -13,7 +13,7 @@ const Home: FC = () => {
     const [activeChatId, setActiveChatId] = useState<string | null>(null);
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
-    const API_URL = 'http://localhost:5001';
+    const API_URL = 'https://whatsapp-clone-43nx.onrender.com';
 
     useEffect(() => {
         const fetchChats = async () => {
