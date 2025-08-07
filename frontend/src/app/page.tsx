@@ -106,8 +106,8 @@ const Home: FC = () => {
         <>
             <Head>
                 <title>WhatsApp Clone</title>
-                <meta name="description" content="A WhatsApp Web Clone built with Next.js" />
-                <link rel="icon" href="/favicon.ico" />
+                <meta name="description" content="A WhatsApp Web Clone built with Next.js snd mongodb" />
+                <link rel="icon" href="./favicon.ico" />
             </Head>
             <div className="flex h-screen antialiased overflow-hidden">
                 <div className={`w-full md:w-1/3 lg:w-1/4 flex flex-col bg-white dark:bg-[#111b21] border-r border-gray-200 dark:border-[#202c33] ${activeChatId ? 'hidden md:flex' : 'flex'}`}>
